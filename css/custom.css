@@ -1,0 +1,354 @@
+ body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #676767;
+    font-weight: 100;
+    margin:0; 
+ }
+ img{
+ 	max-width: 100%;
+ 	display: block;
+ } 
+ .logo img{
+    border-radius: 5px;
+ }
+#header-section{
+	background:url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+    padding-top: 25px;
+}
+ .container{
+ 	width: 1500px;
+ 	margin:0 auto;
+ 	overflow: hidden;
+ }
+ .column{
+ 	width: 50%; 
+ 	float: left;
+ }
+ nav{
+
+ }
+ nav ul{    margin: 0;
+    padding: 0;
+    text-align: right;
+ 	
+ }
+ nav ul li{
+ 	    list-style: none;
+    display: inline-block;
+ }
+ nav ul li a{
+ 	text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+        border-right: 1px solid #fff;
+ }
+ nav ul li a:hover{
+ 	color: #14446f; 
+ }
+nav ul li:last-child a {
+  border-right: 0px solid #fff;
+}
+
+#inform-section{
+	padding: 50px 0 0 ;
+}
+
+ .analytics{
+position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+
+ }
+ .analytics h1{    
+ 	font-size: 3em;
+    margin: 0;
+}
+ .analytics p{
+ 	font-size: 20px;
+    max-width: 700px;}
+.btn{
+    text-transform: initial;
+    color: #fff;
+    text-decoration: none;
+    background: #2596FF;
+    padding: 10px 70px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+ }
+
+ .information{    
+ 	transform: translateY(100%);
+ 	-webkit-transform: translateY(100%);
+ 	-moz-transform: translateY(100%);
+ }
+ .information span{    
+ 	color: rgba(153, 153, 153, 0.62);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+}
+ .information h1{
+    font-size: 2.2em;
+    margin: 0;
+ }
+ .information h3{    
+ 	font-size: 1em;
+    margin-bottom: 0;
+}
+ .information p{}
+
+
+
+ #development{    
+ 	background: #262F36;
+    
+    height: 100vh;
+    position: relative;
+
+ }
+ .development{
+ 	color: #fff;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ .development span{
+ 	color: rgba(153, 153, 153, 0.62);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+ }
+ .development h1{
+ 	 font-size: 2.2em;
+    margin: 0;
+ }
+ .development p{
+ 	max-width: 503px;
+ }
+ .development .btn{
+ 	 text-transform: uppercase;
+    color: #14446f;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+ }
+
+ code{
+position: absolute;
+    right: 0;
+    width: 40%;
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    border:1px solid rgb(75, 86, 95);
+    border-right: 0;
+ }
+ code ol {
+ 	
+ }
+ code ol li{
+ 	color: #888;
+ }
+ code ol li span{
+ 	color: lightblue;
+ }
+
+ .company_logo{
+    background-color: #2595FF;
+    position: relative;
+
+ }
+
+ .all_logos{
+
+ }
+.all_logos ul{
+
+}
+.all_logos ul li{
+    list-style-type: none;
+    float: left;
+    display: inline-block;
+    padding: 10px 43px;
+}
+
+.supports{
+    background-color: #fff;
+    position: relative;
+
+}
+.supp-contant{
+    margin-top: 2em;
+    
+
+}
+.column_33{
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+.sign_caption p{
+    text-align: center;
+    padding: 10px 70px;
+    color: #000;
+}
+.sign a img{
+    margin: 0 auto;
+}
+.supp_top{
+    display: block;
+}
+.supp_top span{
+    text-transform: uppercase;
+    color: #888;
+    text-align: center;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.supp_top h1{ 
+    color: #000;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 22px 10em;
+    font-size: 32px;
+
+}
+.busi_talk{
+    background-color: #F4F5F7;
+    padding-bottom: 3em;
+
+}
+.plan_i{
+
+}
+.plan_i span{
+    color: #777;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+.plan_i_a{
+    font-size: 70px;
+    color: #000;
+    margin: 0px;
+    text-align: center;
+}
+.plan_i_a sup{
+    font-size: 16px;
+}
+.plan_i_a sub{
+    font-size: 16px;
+}
+.plan_i_b{
+    color: #777;
+    text-align: center;
+}
+.plan_ii{
+    border-bottom: 1px solid #777;
+}
+.plan_ii p{
+    color: #777;
+    text-align: center;
+}
+}
+.column_33 .plan_ii p span{
+    color: black;
+    font-weight: bolder;
+    display: inline-block;
+
+    
+}
+.plan_iii{
+    margin-top: 20px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-45%);
+
+}
+.plan_iii .btn{
+    text-transform: initial;
+    color: #fff;
+    text-decoration: none;
+    background: #2596FF;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+ 
+}
+
+.busi_talk .container .supp-contant .column_33{
+    padding: 20px 75px;
+}
+
+.footer{
+    background-color: #262F36;
+    padding: 80px 0px;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding-right: 100px;
+    box-sizing: border-box;
+
+}
+.left h3{
+    text-transform: uppercase;
+    color: white;
+}
+.left p{
+    text-align: justify;
+    color: white;
+}
+.right{
+    width: 50%;
+    float: left;
+    padding-left: 0px
+
+
+}
+.rig_i{
+    width: 33.33%;
+    color: white;
+    float: left;
+}
+.rig_i h3{
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 36px;
+
+}
+.rig_i ul{
+
+}
+.rig_i ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.rig_i ul li a{
+    color: white;
+    text-decoration: none;
+}
